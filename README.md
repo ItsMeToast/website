@@ -1,3 +1,2 @@
 # website
-Colonel By Tutoring website
-Made by Daniel Chen and Kieron Brandt
+Colonel By Tutoring website made by Daniel Chen and Kieron Brandt
