@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="register.css"></link>
 </head>
 <body>
     <header>
@@ -31,10 +31,7 @@
                 <hr>
                 <table>
                     <tr>
-                        <td><label for="fName">First Name:</label><br><input type="text" name="fName" ></td>
-                        <td><label for="fName">Last Name:</label><br><input type="text" name="fName" ></td>
-                    </tr>
-                    <tr>
+                        <td><label for="name">Full Name:</label><br><input type="text" name="name" ></td>
                         <td><label for="email">Email:</label><input type="text" name="email"></td>
                     </tr>
                     <tr>
@@ -46,9 +43,9 @@
                               <option value="9">9</option>
                               <option value="10">10</option>
                               <option value="11">11</option>
+                              <option value="IB1">IB1</option>
                               <option value="12">12</option>
-                              <option value="IB1">IB 1</option>
-                              <option value="IB2">IB 2 </option>
+                              <option value="IB2">IB2</option>
                             </select>
                         </td>
                     </tr>
@@ -57,16 +54,16 @@
                         <td colspan="2">
                             <label for="time">Choose a timeslot:</label> <br>
                             <select id="time" name="time">
-                              <option value="5-6">5-6</option>
-                              <option value="6-7">6-7</option>
-                              <option value="7-8">7-8</option>
-                              <option value="8-9">8-9</option>
+                              <option value="5-6">5 to 6pm</option>
+                              <option value="6-7">6 to 7pm</option>
+                              <option value="7-8">7 to 8pm</option>
+                              <option value="8-9">8 to 9pm</option>
                             </select>
                         </td>
                     </tr>
                     <tr>
-                        <td><label for="comments">Additional comments:</label><br><input type="text" name="fName">
-                        </td>
+                        <td><label for="comments">Additional comments:</label><br><input type="text" name="comments"></td>
+                        <td><br><input type="submit" name="submit"></td>
                     </tr>
                 </table>
             </form>
