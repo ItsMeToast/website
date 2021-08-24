@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="register.css"></link>
+</head>
+<body>
+    <header>
+    <h1 class="logo">Logo</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle"/>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home </a></li>  
+            <li><a href="about.html">About </a></li>  
+            <li><a href="#">Register </a></li>  
+            <li><a href="blog.html">Blog </a></li>  
+            <li><a href="contact.html">Contact </a></li>  
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+    </label>
+    <div class="form"></div>
+</header>
+
+
+<div class="content">
+    <div class="container"> <!--Container to allow the scroll anymation-->
+        <div class="mainForm"> <!--Form container-->
+            <form action="/register" method="POST">
+                <h1>Register Today</h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td><label for="name">Full Name:</label><br><input type="text" name="name" required></td>
+                        <td><label for="email">Email:</label><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="subject">Subject:</label><input type="text" name="subject" required></td>
+    
+                        <td colspan="2">
+                            <label for="grade">Grade Level:</label> <br>
+                            <select id="grade" name="grade" required>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="IB1">IB1</option>
+                              <option value="12">12</option>
+                              <option value="IB2">IB2</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date of scheduled lesson:</label><input type="date" name="date" required></td>
+                        <td colspan="2">
+                            <label for="time">Choose a timeslot:</label> <br>
+                            <select id="time" name="time" required>
+                              <option value="5-6">5 to 6pm</option>
+                              <option value="6-7">6 to 7pm</option>
+                              <option value="7-8">7 to 8pm</option>
+                              <option value="8-9">8 to 9pm</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="info">Additional comments:</label><br><input type="text" name="info"></td>
+                        <td><br><input type="submit" name="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <img src="kid.jpeg" alt="" class="rellax">
+        <div class="overlay"></div>
+    </div>
+ </div>
+
+ <div class="information">
+    <div>
+        <center>
+        <img src="human.png" alt="">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor ratione illo optio similique, qui earum iure incidunt non eligendi, laborum voluptatum. Reiciendis veniam voluptatum enim maiores quidem dolores adipisci.</div>
+        </center>
+    </div>
+    <div>
+        <center>
+        <img src="human.png" alt="">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor ratione illo optio similique, qui earum iure incidunt non eligendi, laborum voluptatum. Reiciendis veniam voluptatum enim maiores quidem dolores adipisci.</div>
+        </center>
+    </div>
+ </div>
+
+<script src="rellax.min.js">
+    var rellax = new Rellax('rellax_master/.rellax');
+</script>
+</body>
+</html>
