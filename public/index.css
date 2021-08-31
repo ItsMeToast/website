@@ -186,7 +186,7 @@ nav a:hover {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: -1;
     padding: 0px;
 }
 .content > div {
@@ -241,13 +241,21 @@ nav a:hover {
     width: 100%;
     margin-top: 1vh;
 }
-.mainForm form textarea {
-    resize: none;
+
+/*courses section*/
+.courseBody {
+    width: 100%;
+    z-index: 2;
+    margin: 0px;
+    height: 50vh;
+    position: relative;
+    background-color: aqua;
 }
+
+/*information zone*/
 .information {
     background-color: antiquewhite;
-    height: 200vh;
-    margin: 0px;
+    height: 150vh;
     z-index: 2;
     position: relative;
 }
@@ -260,12 +268,20 @@ nav a:hover {
     transform: translate(-50%, -50%);
 }
 .information > div:nth-child(1) {
-    top: 15%;
+    top: 20%;
     left: 30%;
 }
 .information > div:nth-child(2) {
     top: 40%;
     left: 70%;
+}
+.information > div:nth-child(3) {
+    top: 65%;
+    left: 25%;
+}
+.information > div:nth-child(4) {
+    top: 82%;
+    left: 65%;
 }
 .information div img {
     width: 40%;

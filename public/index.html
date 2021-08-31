@@ -10,10 +10,10 @@
     <nav>
         <ul>
             <li><a href="#">Home </a></li>  
-            <li><a href="about.html">About </a></li>  
-            <li><a href="register.html">Register </a></li>  
-            <li><a href="blog.html">Blog </a></li>  
-            <li><a href="contact.html">Contact </a></li>  
+            <li><a href="#">About </a></li>  
+            <li><a href="#">Blog </a></li>  
+            <li><a href="#">Contact </a></li>  
+            <li><a href="#">Doo </a></li>  
         </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">
@@ -27,25 +27,66 @@
     <div class="container"> <!--Container to allow the scroll anymation-->
         <div class="mainForm"> <!--Form container-->
             <form action="">
-                <h1>Colonel By Tutoring</h1>
+                <h1>Register Today</h1>
                 <hr>
+                <table>
+                    <tr>
+                        <td><label for="fName">First Name:</label><br><input type="text" name="fName" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label><input type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="subject">Subject:</label><input type="text" name="subject"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tutor">Desired Tutor:</label><input type="text" name="tutor"></td>
+                        <td><label for="date">Date of scheduled lesson:</label><input type="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="time">Choose a timeslot:</label>
+                            <select id="time" name="time">
+                              <option value="5-6">5-6</option>
+                              <option value="6-7">6-7</option>
+                              <option value="7-8">7-8</option>
+                              <option value="8-9">8-9</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
-        <img src="kid.jpeg" alt="" class="rellax">
+        <img src="image/kid.jpeg" alt="" class="rellax">
         <div class="overlay"></div>
     </div>
  </div>
 
+ <div class="courseBody">
+    adf
+ </div>
  <div class="information">
     <div>
         <center>
-        <img src="human.png" alt="">
+        <img src="image/human.png" alt="">
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor ratione illo optio similique, qui earum iure incidunt non eligendi, laborum voluptatum. Reiciendis veniam voluptatum enim maiores quidem dolores adipisci.</div>
         </center>
     </div>
     <div>
         <center>
-        <img src="human.png" alt="">
+        <img src="image/human.png" alt="">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor ratione illo optio similique, qui earum iure incidunt non eligendi, laborum voluptatum. Reiciendis veniam voluptatum enim maiores quidem dolores adipisci.</div>
+        </center>
+    </div>
+    <div>
+        <center>
+        <img src="image/human.png" alt="">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor ratione illo optio similique, qui earum iure incidunt non eligendi, laborum voluptatum. Reiciendis veniam voluptatum enim maiores quidem dolores adipisci.</div>
+        </center>
+    </div>
+    <div>
+        <center>
+        <img src="image/human.png" alt="">
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor ratione illo optio similique, qui earum iure incidunt non eligendi, laborum voluptatum. Reiciendis veniam voluptatum enim maiores quidem dolores adipisci.</div>
         </center>
     </div>
@@ -54,5 +95,6 @@
 <script src="rellax.min.js">
     var rellax = new Rellax('rellax_master/.rellax');
 </script>
+
 </body>
 </html>
